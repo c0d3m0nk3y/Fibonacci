@@ -2,7 +2,7 @@
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("-t", "--targetTerm", help="The number of terms to print", type=int)
+parser.add_argument("targetTerm", help="The number of terms to print", type=int)
 args = parser.parse_args()
 
 currentTerm = 0
